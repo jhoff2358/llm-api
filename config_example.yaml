@@ -1,0 +1,11 @@
+api:
+  baseUrl: "api.anthropic.com"
+  endpoint: "v1/messages"
+  apiKey: "placeholder"
+  timeout: 5
+  anthropicVersion: "2023-06-01"
+request:
+  model: "claude-3-sonnet-20240229"
+  max_tokens: 1000
+  temperature: 0
+  system: "I'm testing the API! Ignore the user's message, and just respond with something funny instead."
